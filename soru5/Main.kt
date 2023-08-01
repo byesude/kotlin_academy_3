@@ -11,7 +11,7 @@ fun main() {
     println("Tekrar eden elemanlar: $tekrarEden")
 }
 
-fun tekrarli(liste: ArrayList<Int>) : HashSet<Int> {
+fun tekrarli(liste : ArrayList<Int>) : HashSet<Int> {
     val tekrarEden = HashSet<Int>()
     val set = HashSet<Int>()
 
